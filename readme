@@ -1,0 +1,7 @@
+Ce projet est organisé en 3 dossiers : 
+data : contenant les fichiers sources brutes dans le folder raw, et le résultat dans output
+src : pour les codes sources :
+    main.py : pour exécuter la pipeline
+    pipeline : contenat toutes les étapes de la pipeline
+    top journal : pour sortir le top journal
+test : pour les tests unitaires du code
