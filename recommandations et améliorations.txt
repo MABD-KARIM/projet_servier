@@ -1,4 +1,6 @@
-J'ajouterai comme élements supplémentaires, les tests unitaires pour tester chaque fonction développée ce qui permet de valider que la pipeline fonctionne correctement.
+J'ajouterai comme élements supplémentaires:
+    - les tests unitaires pour tester chaque fonction développée ce qui permet de valider que la pipeline fonctionne correctement.
+    - une partie orchestration avec Airflow par example afin d'automatiser l'exécution de la pipeline.
 En réponse à la question pour aller plus loin je propose les améliorations suivantes:
-    - faire du multi processing en parralélisant les tâches parallélisables notamment les imports et les transformations sur chaque table.
+    - faire du multi processing sur python en parralélisant les tâches parallélisables notamment les imports et les transformations sur chaque table.
     - utiliser un framework de calcul parallèle tel que Spark pour tirer profit du potentiel du bigdata, dans ce cas là les codes doivent être récerite en PySPark par example pour utiliser la classe Dataframe de Spark et appliquer les diffrentes transformation en logique Spark.
