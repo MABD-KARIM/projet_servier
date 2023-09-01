@@ -4,4 +4,3 @@ src : pour les codes sources :
     main.py : pour exécuter la pipeline
     pipeline : contenat toutes les étapes de la pipeline
     top journal : pour sortir le top journal
-test : pour les tests unitaires du code
